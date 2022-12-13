@@ -22,3 +22,10 @@ To login to admin page:
 2- Visit
 >http://localhost:8000/admin
 
+
+To fetch data:
+Run managment command
+> python manage.py fetch **spotify_token**
+
+Note: **spotify_token** is a string can be gotten from
+>https://developer.spotify.com/console/get-artist/
